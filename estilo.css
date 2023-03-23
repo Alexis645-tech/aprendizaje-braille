@@ -1,0 +1,84 @@
+:root{
+	--blue: #0A0A61;
+	--margin-1: 2%;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	background-color: var(--blue);
+	text-align: center;
+	font-size: 1.2vw;
+}
+
+#start{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.title{
+	color: #fff;
+	font-size: 30px;
+	font-family: Georgia;
+}
+
+.imageStart{
+	height: 20%;
+	margin: 0 0 30px;
+}
+
+.contentContainer{
+	width: 100%;
+	margin: 20px 0 30px;
+}
+
+.content{
+	color: aliceblue;
+	text-align: center;
+	font-size: 20px;
+}
+
+.startButton{
+	width: 100%;
+}
+
+.firstButton{
+	cursor: pointer;
+	border-radius: 1rem;
+	width: 50%;
+	padding: 20px;
+	color: #fff;
+	background: #094;
+	border: none;
+	font-size: 2rem;
+	font-family: Dubai;
+}
+.firstButton:hover{
+	background: #072;
+}
+
+.unitall{
+	display: flex;
+	flex-direction: column;
+}
+
+.namediv{
+	margin: 20px 0;
+}
+
+.buttonUser{
+	background: darkblue;
+	color: #ffffff;
+	border-radius: 1rem;
+	padding: 10px;
+	font-size: 20px;
+	width: 25%;
+	margin: 10px 0;
+}
+
+.ficherdiv{
+	width: 20%;
+	height: 10%;
+}

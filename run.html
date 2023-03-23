@@ -1,0 +1,46 @@
+<html>
+<head>
+	<title>L-BRAILLE GAME</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+</head>
+
+<body id="verso">
+	<script>
+		function run() {
+			document.getElementById("start").style.display = "none"
+			var run = document.createElement("script")
+			run.src = "scripts.js"
+			document.body.appendChild(run);
+		}
+	</script>
+	<div id="start">
+		<div class="title">
+			<h1>Aprende Braille</h1>
+		</div>
+		<div class="imageStart">
+			<img style="height: 100%;" src="assets/onepiece.svg" alt="start" onclick="run()">
+		</div>
+		<div class="contentContainer">
+			<div class="content">
+				<p>
+					Aprende Lenguaje Braille de manera interactiva, tanto el abecedario como los números.
+				</p>	
+			</div>
+		</div>
+		<div class="startButton">
+			<button class="firstButton" onclick="run()">Empezar</button>
+		</div>
+	</div>
+	</div>
+</body>
+	<noscript>
+		<p>
+			NAVEGADOR NO COMPATIBLE.
+			RECOMENDAMOS USAR CHROME O EDGE
+		</p>
+	</noscript>
+</html>
